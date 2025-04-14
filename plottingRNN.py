@@ -6,9 +6,6 @@ hidden_dims = [64, 128, 256]
 epochs_list = [3, 5, 10]
 results = {}
 
-# Ensure the folder exists
-os.makedirs('resultsRNN', exist_ok=True)
-
 # Extract validation accuracies from result files
 for h in hidden_dims:
     for e in epochs_list:
@@ -35,9 +32,4 @@ plt.ylabel('Validation Accuracy')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-
-# Save plot
-plot_path = os.path.join('resultsRNN', 'validation_accuracy_plot.png')
-plt.savefig(plot_path)
-
-print(f"Plot saved to {plot_path}")
+plt.show()

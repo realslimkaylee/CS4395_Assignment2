@@ -1,0 +1,25 @@
+========== Loading data ==========
+========== Vectorizing data ==========
+Training started for epoch 1
+tensor(3.0457)
+Training completed for epoch 1
+Training accuracy for epoch 1: 0.422625
+Validation started for epoch 1
+Validation completed for epoch 1
+Validation accuracy for epoch 1: 0.42375
+Training started for epoch 2
+tensor(1.1194)
+Training completed for epoch 2
+Training accuracy for epoch 2: 0.477125
+Validation started for epoch 2
+Validation completed for epoch 2
+Validation accuracy for epoch 2: 0.5275
+Training started for epoch 3
+tensor(1.1010)
+Training completed for epoch 3
+Training accuracy for epoch 3: 0.492875
+Validation started for epoch 3
+Validation completed for epoch 3
+Validation accuracy for epoch 3: 0.4975
+Training done to avoid overfitting!
+Best validation accuracy is: 0.5275
